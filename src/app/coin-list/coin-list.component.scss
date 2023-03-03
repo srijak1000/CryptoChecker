@@ -1,0 +1,108 @@
+.header {
+    height:40%;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    h2{
+        font-weight: bold;
+        font-size: 3.75rem;
+        line-height: 1.2;
+        letter-spacing: -0.0083em;
+        margin-top: 25px;
+    }
+    h6{
+        color: rgb(228, 228, 228);
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.57;
+        letter-spacing: 0.00714em;
+    }
+}
+
+.banner {
+    background-image: url('../../assets/banner2.jpg');
+    height: 445px;
+    width: 100%;
+}
+.sub-header {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+    img {
+        width: 70px;
+        margin: 0 auto;
+    }
+    h5 {
+        font-weight: 500;
+    }
+    p {
+        font-weight: 700;
+    }
+}
+table {
+    width: 100%;
+}
+
+.row {
+    padding: auto;
+    margin-top: 20px;
+}
+  
+.pointer {
+    cursor: pointer;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+  
+td, th {
+    width: 25%;
+}
+
+// .mx-2 {
+//     cursor: pointer;
+// }
+
+// .coinLink {
+//     cursor: pointer;
+// }
+
+.form-field {
+    align-self: center;
+    width: 350px;
+}
+:host ::ng-deep .mat-sort-header-content {
+    color: #fff;
+}
+:host ::ng-deep .mat-paginator-outer-container {
+    background-color: rgb(36, 37, 37);
+}
+:host ::ng-deep tr.mat-header-row {
+    background-color: #009688;
+}
+:host ::ng-deep tr.mat-mdc-row {
+    height: 70px;
+}
+
+.colorCodeIncrease {
+    color: rgb(101, 255, 101);
+}
+
+.colorCodeDecrease {
+    color: rgb(255, 112, 112);
+}
